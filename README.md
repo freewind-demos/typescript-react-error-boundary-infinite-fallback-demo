@@ -1,7 +1,7 @@
-TypeScript React Hello World Demo
+TypeScript React Error Boundary Demo
 =================================
 
-一个最简单的Typescript + react项目，使用了webpack
+使用ErrorBoundary包裹并提供`fallback`，则当其出现render错误时，出错组件会被处理，而不会导致整个页面白屏
 
 ```
 npm install
