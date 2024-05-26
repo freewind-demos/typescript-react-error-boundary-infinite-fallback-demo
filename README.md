@@ -1,7 +1,10 @@
-TypeScript React Error Boundary Demo
+TypeScript React Error Boundary Fallback to Children Demo
 =================================
 
-使用ErrorBoundary包裹并提供`fallback`，则当其出现render错误时，出错组件会被处理，而不会导致整个页面白屏
+Fallback中的组件中的错误同样会被ErrorBoundary捕获。
+
+所以我们不需要把包含ErrorBoundary的组件作用fallback，只把children放进去就可以了
+
 
 ```
 npm install
